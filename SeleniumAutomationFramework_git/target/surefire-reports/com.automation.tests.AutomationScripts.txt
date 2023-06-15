@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.tests.AutomationScripts
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.637 s <<< FAILURE! - in com.automation.tests.AutomationScripts
+login_Error_Message_1(com.automation.tests.AutomationScripts)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "com.automation.utility.ExtentReportsUtility.testLogger" is null
+	at com.automation.tests.AutomationScripts.login_Error_Message_1(AutomationScripts.java:38)
+
+login_Success_2(com.automation.tests.AutomationScripts)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "com.automation.utility.ExtentReportsUtility.testLogger" is null
+	at com.automation.tests.AutomationScripts.login_Success_2(AutomationScripts.java:65)
+
