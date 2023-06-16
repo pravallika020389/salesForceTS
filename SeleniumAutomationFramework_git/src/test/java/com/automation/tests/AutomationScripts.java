@@ -192,6 +192,153 @@ public class AutomationScripts extends BaseTest{
 		Assert.assertEquals(actualDropdown, expectedDropdown);
 		closeBrowser();
 	}
+	
+	
+	@Test
+	public void user_Menu_MyProfile_06() throws InterruptedException, AWTException {
+		PropertiesUtility pro =new PropertiesUtility();
+		Properties appProp = pro.loadFile("applicationDataProperties");
+		String userId = appProp.getProperty("login.valid.userid");
+		String password = appProp.getProperty("login.valid.password");
+		verifyTittle("Login | Salesforce");
+		WebDriverWait wait = new WebDriverWait(driver, 40);
+		WebElement loginidElement = driver.findElement(By.id("username"));
+		wait.until(ExpectedConditions.visibilityOf(loginidElement));
+		enterText(loginidElement, userId, "User Name");
+		WebElement passwordElement = driver.findElement(By.name("pw"));
+		enterText(passwordElement,password, "Password");
+		WebElement loginButtonElement = driver.findElement(By.name("Login"));
+		clickOnElement(loginButtonElement,"login Button");
+		verifyTittle("Home Page ~ Salesforce - Developer Edition");
+		WebElement userMenuDropdown = driver.findElement(By.id("userNavButton"));
+		wait.until(ExpectedConditions.visibilityOf(userMenuDropdown));
+		wait.until(ExpectedConditions.elementToBeClickable(userMenuDropdown));
+		clickOnElement(userMenuDropdown,"User Menu Dropdown");
+		WebElement myProfile = driver.findElement(By.linkText("My Profile"));
+		clickOnElement(myProfile,"My Profile");
+		wait.until(ExpectedConditions.titleContains("User: P Jan ~ Salesforce - Developer Edition"));
+		verifyTittle("User: P Jan ~ Salesforce - Developer Edition");
+		Thread.sleep(3000);
+		///Updating the last name
+		WebElement editProfile = driver.findElement(By.xpath("//*[contains(text(),'Contact')]//a"));
+		wait.until(ExpectedConditions.elementToBeClickable(editProfile));
+		Thread.sleep(4000);
+		clickOnElement(editProfile,"Edit Profile");
+		Thread.sleep(4000);
+		driver.switchTo().frame("contactInfoContentId");
+		Thread.sleep(3000);
+		WebElement about =driver.findElement(By.xpath("//*[@id=\"aboutTab\"]/a"));
+		clickOnElement(about,"about");
+		WebElement lName =driver.findElement(By.id("lastName"));
+		String updatedLastName ="Jandh";
+		enterText(lName,updatedLastName , "Last Name");
+		WebElement save =driver.findElement(By.xpath("//*[@id=\"TabPanel\"]/div/div[2]/form/div/input[1]"));
+		clickOnElement(save,"save");
+		driver.switchTo().defaultContent();
+		Thread.sleep(2000);
+		WebElement updatedName= driver.findElement(By.id("tailBreadcrumbNode"));
+		String name = getText(updatedName);
+		if(name.equalsIgnoreCase("P "+updatedLastName+" ")){
+			System.out.println("Pass :Last Name is updated");
+		}else
+		{
+			System.out.println("Fail :Last Name is not updated ");
+		}
+		///changing back the name
+		Thread.sleep(2000);
+		WebElement reEditProfile = driver.findElement(By.xpath("//*[contains(text(),'Contact')]//a"));
+		clickOnElement(reEditProfile,"Edit Profile");
+		Thread.sleep(4000);
+		driver.switchTo().frame("contactInfoContentId");
+		Thread.sleep(3000);
+		WebElement reAbout =driver.findElement(By.xpath("//*[@id=\"aboutTab\"]/a"));
+		clickOnElement(reAbout,"about");
+		WebElement reLName =driver.findElement(By.id("lastName"));
+		String updatedLastNameNew ="Jan";
+		enterText(reLName,updatedLastNameNew , "Last Name");	
+		WebElement saveAll =driver.findElement(By.xpath("//*[@id=\"TabPanel\"]/div/div[2]/form/div/input[1]"));
+		clickOnElement(saveAll,"saveAll");
+		driver.switchTo().defaultContent();
+		Thread.sleep(2000);
+		/// Post content
+		Actions actions = new Actions(driver);
+	
+		WebElement postLink =
+		driver.findElement(By.xpath("//*[@id=\"publisherAttachTextPost\"]"));
+		clickOnElement(postLink, "Post Link");
+		driver.manage().timeouts().implicitlyWait(2000,TimeUnit.SECONDS);
+		 
+		driver.findElement(By.xpath("//*[@id='cke_43_contents']/iframe")).click(); 
+		String textTotype= "Hi everyone!";
+		actions.sendKeys(textTotype).build().perform();
+		 driver.manage().timeouts().implicitlyWait(2000,TimeUnit.SECONDS);
+		 
+		 WebElement shareButton = driver.findElement(By.id("publishersharebutton"));
+		 clickOnElement(shareButton, "share Button");
+		
+		 ////upload file
+		Thread.sleep(6000);
+		WebElement fileLink = driver.findElement(By.xpath("//*[@id='publisherAttachContentPost']"));
+				//driver.findElement(By.id("publisherAttachContentPost"));
+		clickOnElement(fileLink,"File Link");
+		WebElement uploadFile = driver.findElement(By.linkText("Upload a file from your computer"));
+		clickOnElement(uploadFile, "upload File Button");
+		Thread.sleep(3000);
+	
+		WebElement uploadButton= driver.findElement(By.xpath("//*[@id='chatterFile']"));
+		actions.click(uploadButton).build().perform();
+		String filePath ="C:\\Users\\jandh\\OneDrive\\Desktop\\tesing.txt";
+		copyToClipboard(filePath);
+		Thread.sleep(2000);
+		Robot robot = new Robot();
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+		System.out.println("completed");
+		clickOnElement(shareButton, "share Button");
+		Thread.sleep(3000);
+		///upload photo
+		WebElement moderator = driver.findElement(By.id("displayBadge"));
+		Actions ac= new Actions(driver);
+		ac.moveToElement(moderator).build().perform();
+		System.out.println("Mouse moved");
+		WebElement addPhoto =driver.findElement(By.linkText("Add Photo"));
+		clickOnElement(addPhoto, "addPhoto");
+		driver.switchTo().frame("uploadPhotoContentId");
+		Thread.sleep(2000);
+		WebElement uplod= driver.findElement(By.xpath("//input[@id='j_id0:uploadFileForm:uploadInputFile']"));
+		actions.click(uplod).build().perform();
+		String photoPath ="C:\\Users\\jandh\\OneDrive\\Desktop\\Screenshot.jpg";
+		copyToClipboard(photoPath);
+		Thread.sleep(2000);
+		robot.keyPress(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_V);
+		robot.keyRelease(KeyEvent.VK_CONTROL);
+		robot.keyPress(KeyEvent.VK_ENTER);
+		robot.keyRelease(KeyEvent.VK_ENTER);
+		System.out.println("completed");
+		Thread.sleep(3000);
+		WebElement savePhoto = driver.findElement(By.id("j_id0:uploadFileForm:uploadBtn"));
+		clickOnElement(savePhoto, "savePhoto Button");
+		Thread.sleep(3000);
+		WebElement savePhotoFinal = driver.findElement(By.id("j_id0:j_id7:save"));
+		
+		clickOnElement(savePhotoFinal, "save Button");
+		Thread.sleep(3000);
+		WebElement reModerator = driver.findElement(By.className("moderatorBadge"));
+		ac.moveToElement(reModerator).build().perform();
+		WebElement deletePhoto =driver.findElement(By.linkText("Delete"));
+		Assert.assertTrue(deletePhoto.isDisplayed());
+		//delete photo
+		clickOnElement(deletePhoto, "delete Button");
+		Thread.sleep(2000);
+		WebElement okButton = driver.findElement(By.id("simpleDialog0button0"));
+		clickOnElement(okButton, "ok Button");
+	}
 	@Test
 	public void user_Menu_MySettings_07() throws InterruptedException {
 		PropertiesUtility pro =new PropertiesUtility();
