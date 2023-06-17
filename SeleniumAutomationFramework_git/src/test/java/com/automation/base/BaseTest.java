@@ -28,12 +28,13 @@ import org.testng.annotations.Parameters;
 
 import com.automation.utility.Constants;
 import com.automation.utility.ExtentReportsUtility;
+// reportsUtility;
 import com.automation.utility.PropertiesUtility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
-	public  static WebDriver driver = null;
+	public static WebDriver driver = null;
 	protected Logger log;
 	protected ExtentReportsUtility report = ExtentReportsUtility.getInstance();
 	
@@ -75,7 +76,7 @@ public class BaseTest {
 	public   void getUrl(String url) {
 		driver.get(url);
 		log.info(url + " is entered");
-		//report.logTestInfo(url + " is entered");
+
 
 	}
 	public   String getPagetitle() {
@@ -100,7 +101,7 @@ public class BaseTest {
 			element.clear();
 			element.sendKeys(data);
 			log.info("Pass: " + objectName + " is entered ");
-			//report.logTestInfo("Pass: " + objectName + " is entered ");
+			////report.logTestInfo("Pass: " + objectName + " is entered ");
 		} else {
 			log.error("Fail: " + objectName + " element is not displayed");
 		}
@@ -111,7 +112,7 @@ public class BaseTest {
 			element.click();
 
 			log.info("Pass: Element " + label + " is clicked");
-			report.logTestInfo("Pass: Element " + label + " is clicked");
+			// // report.logTestInfo("Pass: Element " + label + " is clicked");
 		} else {
 			log.error("Fail: Element not displayed");
 
@@ -124,7 +125,7 @@ public class BaseTest {
 			element.clear();
 
 			log.info("Pass: Field " + label + " is cleared");
-			report.logTestInfo("Pass: Field " + label + " is cleared");
+			// report.logTestInfo("Pass: Field " + label + " is cleared");
 		} else {
 			log.error("Fail: Element not displayed");
 
@@ -135,7 +136,7 @@ public class BaseTest {
 	public  String getText(WebElement element) {
 		String fetchedData = element.getText();
 		log.info("Text captured is " + fetchedData);
-		report.logTestInfo("Text captured is " + fetchedData);
+		// report.logTestInfo("Text captured is " + fetchedData);
 		return fetchedData;
 
 	}
@@ -143,19 +144,19 @@ public class BaseTest {
 	public  void goToAlert(WebElement element) {
 		driver.switchTo().alert();
 		log.info("Focus is moved to alert");
-		report.logTestInfo("Focus is moved to alert");
+		// report.logTestInfo("Focus is moved to alert");
 	}
 
 	public  void switchToWindow(String handle) {
 		driver.switchTo().window(handle);
 		log.info("Focus is moved to window");
-		report.logTestInfo("Focus is moved to window");
+		// report.logTestInfo("Focus is moved to window");
 	}
 
 	public  void switchToDefault() {
 		driver.switchTo().defaultContent();
 		log.info("Focus is moved to the default content");
-		report.logTestInfo("Focus is moved to the default content");
+		// report.logTestInfo("Focus is moved to the default content");
 	}
 
 	public  void copyToClipboard(String text) {
@@ -164,19 +165,19 @@ public class BaseTest {
 		StringSelection strse1 = new StringSelection(text);
 		clip.setContents(strse1, strse1);
 		log.info("Text copied to clipboard");
-		report.logTestInfo("Text copied to clipboard");
+		// report.logTestInfo("Text copied to clipboard");
 	}
 
 	public  void closeBrowser() {
 		driver.close();
 		log.info("Browser is closed");
-		report.logTestInfo("Browser is closed");
+		// report.logTestInfo("Browser is closed");
 	}
 
 	public  void closeAllBrowsers() {
 		driver.quit();
 		log.info("All Browser are closed");
-		report.logTestInfo("All Browser are closed");
+		// report.logTestInfo("All Browser are closed");
 	}
 
 	public  void takescreenshot(String filepath) throws IOException {
