@@ -9,23 +9,16 @@
     <classes>
       <class name="com.automation.tests.AutomationScripts">
         <methods>
-          <include name="test_contacts_newView_31"/>
-          <include name="test_opty_pipeline_17"/>
+          <include name="random_AllTabs_35"/>
+          <include name="opty_CreateNew_16"/>
+          <include name="user_Menu_MyProfile_06"/>
           <include name="random_home_FN_LN_33"/>
-          <include name="test_contacts_recentContact_29"/>
-          <include name="test_lead_todayLeads_23"/>
           <include name="setUpForBeforeTest"/>
           <include name="test_contacts_newView_26"/>
-          <include name="test_contacts_recentlyCreated_27"/>
-          <include name="test_contacts_newView_32"/>
-          <include name="accountReport_14"/>
-          <include name="user_Menu_MySettings_07"/>
-          <include name="random_AllTabs_35"/>
-          <include name="test_contacts_new_25"/>
-          <include name="test_Mycontacts_28"/>
-          <include name="mergeAccount_13"/>
-          <include name="test_contacts_newView_Error_30"/>
+          <include name="test_lead_select_logout_relogin_22"/>
+          <include name="random_home_calendar_36"/>
           <include name="setUpBeforeTestMethod"/>
+          <include name="user_Menu_MySettings_07"/>
         </methods>
       </class> <!-- com.automation.tests.AutomationScripts -->
     </classes>

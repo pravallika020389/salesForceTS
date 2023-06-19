@@ -28,7 +28,7 @@ public class TestEventListernersUtility implements ITestListener{
 		extentReport.logTestFailedWithException(result.getThrowable());
 		BaseTest ob= new BaseTest();
 		WebDriver driver= BaseTest.driver;
-		System.out.println("driver got it in listerners utility="+driver);
+		//System.out.println("driver got it in listerners utility="+driver);
 		File imageFile=ob.takescreenshot(driver);
 		byte[] fileContent=null;
 		try {

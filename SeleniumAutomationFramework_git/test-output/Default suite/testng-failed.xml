@@ -5,9 +5,9 @@
     <classes>
       <class name="com.automation.tests.AutomationScripts">
         <methods>
-          <include name="login_Success_2"/>
           <include name="setUpForBeforeTest"/>
           <include name="setUpBeforeTestMethod"/>
+          <include name="user_Menu_MySettings_07"/>
         </methods>
       </class> <!-- com.automation.tests.AutomationScripts -->
     </classes>

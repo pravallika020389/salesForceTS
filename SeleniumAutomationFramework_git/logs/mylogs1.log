@@ -774,3 +774,1133 @@
 20230613 23:51:08 INFO  [main] base.BaseTest BaseTest.java91 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
 20230613 23:51:09 INFO  [main] base.BaseTest BaseTest.java113 - Pass: Element User Menu Dropdown is clicked
 20230613 23:51:10 INFO  [main] base.BaseTest BaseTest.java172 - Browser is closed
+20230616 09:00:09 INFO  [main] base.BaseTest BaseTest.java77 - https://login.salesforce.com is entered
+20230616 09:00:09 INFO  [main] base.BaseTest BaseTest.java91 - Pass: Title matched with Login | Salesforce
+20230616 09:00:09 INFO  [main] base.BaseTest BaseTest.java102 - Pass: User Name is entered 
+20230616 09:00:10 INFO  [main] base.BaseTest BaseTest.java102 - Pass: Password is entered 
+20230616 09:00:14 INFO  [main] base.BaseTest BaseTest.java113 - Pass: Element login Button is clicked
+20230616 09:02:27 INFO  [main] base.BaseTest BaseTest.java77 - https://login.salesforce.com is entered
+20230616 09:02:27 INFO  [main] base.BaseTest BaseTest.java91 - Pass: Title matched with Login | Salesforce
+20230616 09:02:28 INFO  [main] base.BaseTest BaseTest.java102 - Pass: User Name is entered 
+20230616 09:02:28 INFO  [main] base.BaseTest BaseTest.java102 - Pass: Password is entered 
+20230616 09:02:29 INFO  [main] base.BaseTest BaseTest.java113 - Pass: Element login Button is clicked
+20230616 09:37:56 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:37:56 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:37:57 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:37:57 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:37:57 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:38:02 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:38:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element allTabs Button is clicked
+20230616 09:38:06 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with All Tabs ~ Salesforce - Developer Edition
+20230616 09:38:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element customizeTab Button is clicked
+20230616 09:38:10 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Customize My Tabs ~ Salesforce - Developer Edition
+20230616 09:38:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element remove Button is clicked
+20230616 09:38:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 09:38:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 09:38:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Logout is clicked
+20230616 09:38:19 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:38:19 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:38:20 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:38:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:38:20 ERROR [main] base.BaseTest BaseTest.java94 - Fail : Title not matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:40:55 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:40:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:40:55 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:40:56 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:40:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:41:00 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:41:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element allTabs Button is clicked
+20230616 09:41:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with All Tabs ~ Salesforce - Developer Edition
+20230616 09:41:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element customizeTab Button is clicked
+20230616 09:41:09 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Customize My Tabs ~ Salesforce - Developer Edition
+20230616 09:50:44 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:50:44 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:50:45 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Forgot Password is clicked
+20230616 09:50:45 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:50:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Continue Button is clicked
+20230616 09:50:47 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:50:49 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:50:50 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:50:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Wrong User Name is entered 
+20230616 09:50:51 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Wrong Password is entered 
+20230616 09:50:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:50:51 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is Please check your username and password. If you still can't log in, contact your Salesforce administrator.
+20230616 09:50:52 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:50:54 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:50:54 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:50:54 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:50:55 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:50:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:50:59 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:51:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Accounts Option is clicked
+20230616 09:51:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:51:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element acc ReportLink is clicked
+20230616 09:51:10 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Unsaved Report ~ Salesforce - Developer Edition
+20230616 09:51:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element from Date is clicked
+20230616 09:51:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element today FromDate is clicked
+20230616 09:51:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element toDate is clicked
+20230616 09:51:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element today ToDate is clicked
+20230616 09:51:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 09:51:15 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Report Name is entered 
+20230616 09:51:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element report UniqueName is clicked
+20230616 09:51:16 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Report Unique Name is entered 
+20230616 09:51:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Final is clicked
+20230616 09:51:20 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:51:22 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:51:23 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:51:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:51:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:51:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Remember me is clicked
+20230616 09:51:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:51:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:51:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 09:51:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Logout is clicked
+20230616 09:51:30 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:51:30 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is pravallika@training.com
+20230616 09:51:30 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:51:32 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:51:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:51:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:51:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:51:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:51:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:51:40 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Accounts Option is clicked
+20230616 09:51:40 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:51:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element New Button is clicked
+20230616 09:51:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Account name is entered 
+20230616 09:51:48 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 09:51:48 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:51:50 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:51:50 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:51:51 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:51:51 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:51:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:51:56 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:51:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Accounts Option is clicked
+20230616 09:51:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:52:00 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Create NewView Link is clicked
+20230616 09:52:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: View Name is entered 
+20230616 09:52:00 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View UniqueName is clicked
+20230616 09:52:01 INFO  [main] base.BaseTest BaseTest.java103 - Pass: View Unique Name is entered 
+20230616 09:52:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 09:52:02 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:52:04 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:52:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:52:05 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:52:05 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:52:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:52:10 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:52:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Accounts Option is clicked
+20230616 09:52:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:52:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Link is clicked
+20230616 09:52:14 INFO  [main] base.BaseTest BaseTest.java103 - Pass: View Name is entered 
+20230616 09:52:15 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Value filter field is entered 
+20230616 09:52:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 09:52:18 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:52:23 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:52:23 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:52:24 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Login Id is entered 
+20230616 09:52:24 INFO  [main] base.BaseTest BaseTest.java127 - Pass: Field  is cleared
+20230616 09:52:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230616 09:52:25 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is Please enter your password.
+20230616 09:52:28 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:52:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:52:29 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:52:30 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:52:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230616 09:52:35 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:52:37 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:52:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:52:38 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:52:39 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:52:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:52:45 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:52:45 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 09:52:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Logout is clicked
+20230616 09:52:47 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:52:49 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:52:49 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:52:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:52:51 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:52:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:52:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:52:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Accounts Option is clicked
+20230616 09:52:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:53:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element merge AccLink is clicked
+20230616 09:53:05 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Acc Search is entered 
+20230616 09:53:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element search AccButton is clicked
+20230616 09:53:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element 1st Checkbox is clicked
+20230616 09:53:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element 2nd Checkbox is clicked
+20230616 09:53:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element go NextButton is clicked
+20230616 09:53:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element merge Button is clicked
+20230616 09:53:08 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:53:12 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:53:12 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:53:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:53:13 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:53:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:53:18 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:53:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Option is clicked
+20230616 09:53:21 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:53:21 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Opportunities: Home ~ Salesforce - Developer Edition
+20230616 09:53:21 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element New Button is clicked
+20230616 09:53:26 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:53:26 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:53:27 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:53:28 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:53:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:53:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:53:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Option is clicked
+20230616 09:53:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:53:35 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Opportunities: Home ~ Salesforce - Developer Edition
+20230616 09:53:35 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:53:40 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:53:40 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:53:40 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:53:40 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:53:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:53:45 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:53:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element allTabs Button is clicked
+20230616 09:53:50 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with All Tabs ~ Salesforce - Developer Edition
+20230616 09:53:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element customizeTab Button is clicked
+20230616 09:53:54 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Customize My Tabs ~ Salesforce - Developer Edition
+20230616 09:54:01 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:54:01 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:54:02 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:54:02 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:54:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:54:11 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:54:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 09:54:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 09:54:12 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 09:54:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 09:54:29 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P k 
+20230616 09:54:29 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P k
+20230616 09:54:29 INFO  [main] base.BaseTest BaseTest.java85 - User: P k ~ Salesforce - Developer Edition title is captured
+20230616 09:54:32 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:54:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:54:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:54:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:54:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:54:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:54:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Home tab is clicked
+20230616 09:54:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:54:45 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:54:45 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:54:46 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:54:46 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:54:55 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:54:56 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:54:58 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:54:58 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:54:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:55:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:55:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element home is clicked
+20230616 09:55:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:55:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Today Link is clicked
+20230616 09:55:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element timeSlot Link is clicked
+20230616 09:55:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element subject Link is clicked
+20230616 09:55:32 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 09:55:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element other Link is clicked
+20230616 09:55:38 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 09:55:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element end Time  is clicked
+20230616 09:55:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element end Time  is clicked
+20230616 09:55:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element isRecurrence checkbox  is clicked
+20230616 09:55:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element weeklyFreq radio button is clicked
+20230616 09:55:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element enddate is clicked
+20230616 09:55:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: enddate is entered 
+20230616 09:55:43 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 09:55:43 INFO  [main] base.BaseTest BaseTest.java179 - All Browser are closed
+20230616 09:55:49 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:55:49 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:55:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:55:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:55:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:55:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:55:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:56:00 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:56:00 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:56:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element go is clicked
+20230616 09:56:02 INFO  [main] base.BaseTest BaseTest.java85 - Contacts ~ Salesforce - Developer Edition title is captured
+20230616 09:56:02 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:56:06 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:56:06 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:56:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:56:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:56:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:56:18 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:56:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:56:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:56:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:56:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View link is clicked
+20230616 09:56:33 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Create New View ~ Salesforce - Developer Edition
+20230616 09:56:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 09:56:35 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 09:56:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 09:56:38 INFO  [main] base.BaseTest BaseTest.java85 - Salesforce - Developer Edition title is captured
+20230616 09:56:43 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:56:43 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:56:45 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:56:45 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:56:48 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:56:51 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:56:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:56:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:56:58 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:56:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View link is clicked
+20230616 09:56:59 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Create New View ~ Salesforce - Developer Edition
+20230616 09:57:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 09:57:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 09:57:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element cancel Button is clicked
+20230616 09:57:12 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:57:12 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:57:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:57:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:57:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:57:19 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:57:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:57:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:57:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element New Button is clicked
+20230616 09:57:32 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last name is entered 
+20230616 09:57:32 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Account name is entered 
+20230616 09:57:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save NewButton is clicked
+20230616 09:57:32 INFO  [main] base.BaseTest BaseTest.java85 - Contact Edit: New Contact ~ Salesforce - Developer Edition title is captured
+20230616 09:57:33 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:57:40 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:57:40 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:57:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:57:42 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:57:49 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:57:49 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:57:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:57:55 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:57:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:57:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View link is clicked
+20230616 09:57:58 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Create New View ~ Salesforce - Developer Edition
+20230616 09:58:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 09:58:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 09:58:02 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:58:09 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:58:09 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:58:10 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:58:11 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:58:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:58:15 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:58:17 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:58:21 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:58:21 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:58:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element New Button is clicked
+20230616 09:58:23 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contact Edit: New Contact ~ Salesforce - Developer Edition
+20230616 09:58:24 INFO  [main] base.BaseTest BaseTest.java103 - Pass: LastName is entered 
+20230616 09:58:24 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Company Name is entered 
+20230616 09:58:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 09:58:26 INFO  [main] base.BaseTest BaseTest.java85 - Contact: ABCD ~ Salesforce - Developer Edition title is captured
+20230616 09:58:27 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:58:32 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:58:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:58:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:58:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:58:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:58:42 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:58:43 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:58:48 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:58:49 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:58:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View link is clicked
+20230616 09:58:51 INFO  [main] base.BaseTest BaseTest.java85 - Contact: ABCD ~ Salesforce - Developer Edition title is captured
+20230616 09:58:51 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:58:55 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:58:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:58:57 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:58:58 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:59:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:59:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:59:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 09:59:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:59:11 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 09:59:14 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:59:19 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:59:20 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:59:22 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:59:22 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:59:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:59:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:59:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 09:59:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:59:33 INFO  [main] base.BaseTest BaseTest.java85 - Leads: Home ~ Salesforce - Developer Edition title is captured
+20230616 09:59:34 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 09:59:40 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 09:59:41 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 09:59:44 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 09:59:45 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 09:59:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 09:59:52 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 09:59:53 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 09:59:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 09:59:58 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Leads: Home ~ Salesforce - Developer Edition
+20230616 10:00:01 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:00:09 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:00:09 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:00:10 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:00:10 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:00:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:00:16 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:00:21 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 10:00:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 10:00:25 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Leads: Home ~ Salesforce - Developer Edition
+20230616 10:00:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element New Button is clicked
+20230616 10:00:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Lead Edit: New Lead ~ Salesforce - Developer Edition
+20230616 10:00:28 INFO  [main] base.BaseTest BaseTest.java103 - Pass: LastName is entered 
+20230616 10:00:29 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Company Name is entered 
+20230616 10:00:31 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 10:00:32 INFO  [main] base.BaseTest BaseTest.java85 - Lead: ABCD ~ Salesforce - Developer Edition title is captured
+20230616 10:00:33 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:00:38 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:00:39 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:00:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:00:42 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:00:49 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:00:49 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:00:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 10:01:04 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:01:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:01:07 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:01:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:01:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:01:18 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:01:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 10:01:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 10:01:30 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Leads: Home ~ Salesforce - Developer Edition
+20230616 10:01:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element go is clicked
+20230616 10:01:34 INFO  [main] base.BaseTest BaseTest.java85 - Leads ~ Salesforce - Developer Edition title is captured
+20230616 10:01:34 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:01:39 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:01:39 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:01:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:01:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:01:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:01:46 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:01:49 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Option is clicked
+20230616 10:01:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 10:01:52 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Opportunities: Home ~ Salesforce - Developer Edition
+20230616 10:01:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element run Report is clicked
+20230616 10:01:56 INFO  [main] base.BaseTest BaseTest.java85 - Opportunity Report ~ Salesforce - Developer Edition title is captured
+20230616 10:01:57 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:02:03 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:02:03 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:02:04 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:02:04 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:02:04 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:02:09 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:02:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Option is clicked
+20230616 10:02:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 10:02:14 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Opportunities: Home ~ Salesforce - Developer Edition
+20230616 10:02:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Stuck is clicked
+20230616 10:02:15 INFO  [main] base.BaseTest BaseTest.java85 - Stuck Opportunities ~ Salesforce - Developer Edition title is captured
+20230616 10:02:16 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:02:22 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:02:22 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:02:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:02:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:02:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:02:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:02:31 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Option is clicked
+20230616 10:02:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 10:02:34 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Opportunities: Home ~ Salesforce - Developer Edition
+20230616 10:02:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Pipe is clicked
+20230616 10:02:37 INFO  [main] base.BaseTest BaseTest.java85 - Opportunity Pipeline ~ Salesforce - Developer Edition title is captured
+20230616 10:02:37 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:02:43 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:02:43 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:02:46 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:02:47 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:02:55 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:02:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:02:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 10:02:57 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Developer Console is clicked
+20230616 10:03:01 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 10:03:02 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 10:03:02 INFO  [main] base.BaseTest BaseTest.java179 - All Browser are closed
+20230616 10:03:07 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:03:08 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:03:09 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:03:09 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:03:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 10:03:15 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:03:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 10:03:21 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 10:04:12 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:04:13 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:04:15 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:04:15 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:04:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230616 10:04:22 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:04:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 10:04:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Settings is clicked
+20230616 10:05:11 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 10:05:11 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 10:05:13 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 10:05:14 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 10:05:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230616 10:05:20 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 10:05:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 10:05:23 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 11:14:00 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 11:14:00 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 11:14:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 11:14:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 11:14:03 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 11:14:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 11:14:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element home is clicked
+20230616 11:14:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 11:14:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Today Link is clicked
+20230616 11:14:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element timeSlot Link is clicked
+20230616 11:14:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element subject Link is clicked
+20230616 11:14:20 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 11:14:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element other Link is clicked
+20230616 11:14:24 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 11:14:24 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element end Time  is clicked
+20230616 11:14:24 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element end Time  is clicked
+20230616 11:14:24 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element isRecurrence checkbox  is clicked
+20230616 11:14:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element weeklyFreq radio button is clicked
+20230616 11:14:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element enddate is clicked
+20230616 11:14:26 INFO  [main] base.BaseTest BaseTest.java103 - Pass: enddate is entered 
+20230616 11:14:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 11:14:27 INFO  [main] base.BaseTest BaseTest.java179 - All Browser are closed
+20230616 11:15:02 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 11:15:02 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 11:15:02 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:28:13 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 13:28:13 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:28:13 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:28:13 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:28:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:28:17 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:28:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Opportunities Option is clicked
+20230616 13:28:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 13:28:20 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Opportunities: Home ~ Salesforce - Developer Edition
+20230616 13:28:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element New Button is clicked
+20230616 13:28:20 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Opty Name is entered 
+20230616 13:28:20 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Acc Name is entered 
+20230616 13:28:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element closeDate is clicked
+20230616 13:28:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element todayDate is clicked
+20230616 13:28:22 INFO  [main] base.BaseTest BaseTest.java127 - Pass: Field  is cleared
+20230616 13:28:22 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Probability is entered 
+20230616 13:28:22 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Campaign Source is entered 
+20230616 13:28:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element finish is clicked
+20230616 13:28:23 INFO  [main] base.BaseTest BaseTest.java85 - Opportunity: New Opp ~ Salesforce - Developer Edition title is captured
+20230616 13:28:23 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 13:29:31 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 13:29:31 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:29:31 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:29:31 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:29:31 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:29:35 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:29:36 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element allTabs Button is clicked
+20230616 13:29:40 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with All Tabs ~ Salesforce - Developer Edition
+20230616 13:29:40 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element customizeTab Button is clicked
+20230616 13:29:44 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Customize My Tabs ~ Salesforce - Developer Edition
+20230616 13:37:52 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 13:37:52 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:37:52 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:37:52 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:37:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:37:56 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:37:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element allTabs Button is clicked
+20230616 13:38:00 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with All Tabs ~ Salesforce - Developer Edition
+20230616 13:38:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element customizeTab Button is clicked
+20230616 13:38:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Customize My Tabs ~ Salesforce - Developer Edition
+20230616 13:38:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element remove Button is clicked
+20230616 13:38:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 13:38:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 13:38:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Logout is clicked
+20230616 13:38:10 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:38:11 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:38:11 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:38:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:38:12 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:38:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element allTabs Button is clicked
+20230616 13:38:16 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with All Tabs ~ Salesforce - Developer Edition
+20230616 13:38:17 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element customizeTab Button is clicked
+20230616 13:38:21 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Customize My Tabs ~ Salesforce - Developer Edition
+20230616 13:38:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Add Button is clicked
+20230616 13:38:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 13:42:23 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 13:42:23 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:42:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:42:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:42:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:42:27 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:42:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element home is clicked
+20230616 13:42:31 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 13:42:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Today Link is clicked
+20230616 13:42:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element timeSlot Link is clicked
+20230616 13:42:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element subject Link is clicked
+20230616 13:42:41 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 13:42:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element other Link is clicked
+20230616 13:42:41 INFO  [main] base.BaseTest BaseTest.java152 - Focus is moved to window
+20230616 13:42:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 13:42:42 INFO  [main] base.BaseTest BaseTest.java179 - All Browser are closed
+20230616 13:43:28 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 13:43:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:43:28 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:43:28 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:43:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:43:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:43:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 13:43:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 13:43:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 13:43:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View link is clicked
+20230616 13:43:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Create New View ~ Salesforce - Developer Edition
+20230616 13:43:37 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 13:43:37 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 13:43:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 13:43:40 INFO  [main] base.BaseTest BaseTest.java85 - Salesforce - Developer Edition title is captured
+20230616 13:57:33 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 13:57:33 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 13:57:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 13:57:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 13:57:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 13:57:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 13:57:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Contacts Option is clicked
+20230616 13:57:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 13:57:41 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Home ~ Salesforce - Developer Edition
+20230616 13:57:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View link is clicked
+20230616 13:57:42 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Contacts: Create New View ~ Salesforce - Developer Edition
+20230616 13:57:42 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 13:57:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element View UniqueName is clicked
+20230616 13:57:42 INFO  [main] base.BaseTest BaseTest.java103 - Pass: contact View Name is entered 
+20230616 13:57:43 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230616 13:57:45 INFO  [main] base.BaseTest BaseTest.java85 - Contacts ~ Salesforce - Developer Edition title is captured
+20230616 13:57:45 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 14:09:11 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 14:09:11 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 14:09:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 14:09:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 14:09:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 14:09:28 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 14:09:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 14:09:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 14:09:33 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Leads: Home ~ Salesforce - Developer Edition
+20230616 15:57:57 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 15:57:57 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 15:57:57 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 15:57:57 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 15:57:57 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 15:58:01 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 15:58:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Lead Option is clicked
+20230616 15:58:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Close Popup is clicked
+20230616 15:58:06 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Leads: Home ~ Salesforce - Developer Edition
+20230616 15:58:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 15:58:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Logout is clicked
+20230616 15:58:07 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 15:58:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 15:58:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 15:58:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element relogin Button is clicked
+20230616 15:58:10 ERROR [main] base.BaseTest BaseTest.java94 - Fail : Title not matched with Home Page ~ Salesforce - Developer Edition
+20230616 15:58:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element relead Option is clicked
+20230616 15:58:14 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Leads: Home ~ Salesforce - Developer Edition
+20230616 15:58:14 INFO  [main] base.BaseTest BaseTest.java173 - Browser is closed
+20230616 15:59:32 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 15:59:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 15:59:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 15:59:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 15:59:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 15:59:37 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 15:59:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 15:59:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 15:59:38 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 15:59:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 15:59:53 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 15:59:53 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 15:59:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 15:59:58 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 16:00:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 16:00:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 16:00:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 16:00:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 16:00:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:00:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:00:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:00:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:00:21 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:00:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:00:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:04:00 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:04:00 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:04:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:04:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:04:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:04:06 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:04:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:04:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:04:07 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:04:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:04:16 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:04:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 16:04:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 16:04:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 16:04:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 16:05:04 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:05:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:05:04 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:05:04 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:05:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:05:09 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:05:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:05:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:05:10 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:05:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 16:05:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 16:05:25 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 16:05:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 16:05:28 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 16:05:31 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 16:05:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 16:05:38 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 16:05:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 16:05:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:05:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:05:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:05:48 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:05:51 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:05:53 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:05:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:11:50 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:11:50 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:11:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:11:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:11:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:11:54 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:11:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:11:55 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:11:55 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:12:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 16:12:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 16:12:10 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 16:12:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 16:12:13 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 16:12:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 16:12:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 16:12:23 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 16:12:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 16:12:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:12:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:12:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:12:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:12:36 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:12:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:12:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:20:34 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:20:34 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:20:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:20:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:20:36 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:20:38 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:20:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:20:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:20:39 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:20:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:20:48 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:20:48 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:20:51 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:20:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:20:57 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:20:59 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:21:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 16:21:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 16:21:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 16:21:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 16:22:22 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:22:22 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:22:22 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:22:22 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:22:24 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:22:26 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:22:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:22:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:22:27 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:22:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:22:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:22:36 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:22:36 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:22:40 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:22:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:22:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:26:04 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:26:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:26:04 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:26:04 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:26:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:26:08 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:26:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:26:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:26:09 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:26:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:26:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:26:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:30:24 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:30:24 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:30:24 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:30:25 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:30:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:30:29 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:30:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:30:30 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:30:30 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:30:32 ERROR [main] base.BaseTest BaseTest.java117 - Fail: Element not displayed
+20230616 16:30:59 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:30:59 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:31:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:31:00 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:31:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:31:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:31:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:31:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:31:06 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:31:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:31:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:31:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:36:14 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:36:14 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:36:14 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:36:14 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:36:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:36:19 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:36:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:36:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:36:20 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:36:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:36:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:36:31 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:36:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:36:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:36:44 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:36:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 16:36:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 16:36:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 16:37:00 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 16:37:00 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 16:39:19 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:39:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 16:39:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 16:39:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 16:39:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 16:40:42 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 16:40:42 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 16:40:42 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 16:40:42 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 16:40:45 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 16:40:47 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 16:40:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 16:40:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 16:40:48 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 16:40:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 16:40:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 16:41:00 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:41:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 16:41:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 16:41:12 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 16:41:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 16:41:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 16:41:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 16:41:27 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 16:41:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 17:25:02 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 17:25:02 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 17:25:02 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 17:25:03 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 17:25:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 17:25:07 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 17:25:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 17:25:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 17:25:08 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 17:25:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 17:25:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 17:25:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 17:25:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 17:25:20 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 17:25:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 17:25:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 17:29:08 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 17:29:08 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 17:29:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 17:29:08 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 17:29:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 17:29:14 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 17:29:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 17:29:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 17:29:15 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 17:29:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 17:29:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 17:29:26 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 17:29:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 17:29:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 17:29:37 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 17:29:43 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 17:29:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 17:29:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 17:29:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 17:29:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 17:48:42 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 17:48:43 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 17:48:43 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 17:48:43 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 17:48:45 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 17:48:47 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 17:48:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 17:48:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 17:48:48 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 17:48:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 17:48:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 17:48:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 17:48:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 17:49:00 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 17:49:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 17:49:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 17:57:33 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 17:57:33 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 17:57:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 17:57:34 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 17:57:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 17:57:39 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 17:57:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 17:57:40 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 17:57:40 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 17:57:42 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 17:57:53 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 17:57:53 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 17:57:53 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 17:57:53 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 17:57:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 17:58:02 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 17:58:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 17:58:03 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 17:58:03 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 17:58:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:01:27 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:01:27 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:01:27 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:01:27 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:01:29 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:01:32 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:01:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:01:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:01:33 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:01:36 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:02:56 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:02:56 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:02:56 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:02:57 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:02:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:03:01 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:03:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:03:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:03:01 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:03:04 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:03:04 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:03:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 18:03:10 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 18:03:14 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 18:03:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:03:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 18:09:45 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:09:45 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:09:45 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:09:45 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:09:45 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:09:51 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:09:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:09:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:09:52 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:11:05 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:11:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:11:05 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:11:05 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:11:08 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:11:10 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:11:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:11:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:11:11 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:11:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element addPhoto is clicked
+20230616 18:11:19 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 18:11:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element savePhoto Button is clicked
+20230616 18:11:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save Button is clicked
+20230616 18:11:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element delete Button is clicked
+20230616 18:11:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element ok Button is clicked
+20230616 18:11:52 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:11:52 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:11:52 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:11:52 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:11:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:11:56 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:11:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:11:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:11:57 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:12:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:12:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:12:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:12:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 18:12:15 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 18:12:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:12:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:12:25 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:12:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 18:12:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:12:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:12:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 18:12:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 18:12:38 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 18:12:40 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:15:29 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:15:30 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:15:30 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:15:30 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:15:32 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:15:34 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:15:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:15:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:15:35 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:15:43 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:15:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:15:50 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:15:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 18:15:53 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 18:15:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:16:03 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:16:03 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:16:04 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 18:16:06 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:16:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:16:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 18:16:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 18:16:17 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 18:16:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:17:12 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:17:12 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:17:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:17:12 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:17:17 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:17:17 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:17:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:17:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:17:19 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:17:26 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:17:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:17:33 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:17:34 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 18:17:37 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 18:17:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:17:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:17:46 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:17:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 18:17:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:17:50 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:17:57 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 18:17:57 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 18:18:00 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 18:18:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:21:58 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230616 18:21:58 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230616 18:21:59 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230616 18:21:59 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230616 18:21:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element login Button is clicked
+20230616 18:22:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230616 18:22:04 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230616 18:22:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Profile is clicked
+20230616 18:22:05 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with User: P Jan ~ Salesforce - Developer Edition
+20230616 18:22:13 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:22:20 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:22:20 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:22:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element save is clicked
+20230616 18:22:25 INFO  [main] base.BaseTest BaseTest.java138 - Text captured is P Jandh 
+20230616 18:22:28 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Edit Profile is clicked
+20230616 18:22:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element about is clicked
+20230616 18:22:35 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Last Name is entered 
+20230616 18:22:37 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element saveAll is clicked
+20230616 18:22:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Post Link is clicked
+20230616 18:22:40 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230616 18:22:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element File Link is clicked
+20230616 18:22:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element upload File Button is clicked
+20230616 18:22:50 INFO  [main] base.BaseTest BaseTest.java167 - Text copied to clipboard
+20230616 18:22:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element share Button is clicked
+20230618 22:09:41 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230618 22:09:41 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230618 22:09:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230618 22:09:41 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230618 22:09:44 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230618 22:09:46 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230618 22:09:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230618 22:09:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Settings is clicked
+20230618 22:09:47 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230618 22:09:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Personal Tab is clicked
+20230618 22:09:54 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login History is clicked
+20230618 22:09:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element downloadLink is clicked
+20230618 22:09:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Display Layouttab is clicked
+20230618 22:10:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Customize MyTabs is clicked
+20230618 22:10:09 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Add Button is clicked
+20230618 22:10:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230618 22:10:12 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230618 22:10:12 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element email Tab is clicked
+20230618 22:10:15 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element email Setting is clicked
+20230618 22:10:17 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Calendar And Remainder is clicked
+20230618 22:10:19 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Activity Remainder is clicked
+20230618 22:10:21 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Activity Reminders ~ Salesforce - Developer Edition
+20230618 22:10:22 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Open Test Remainder is clicked
+20230619 12:50:31 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230619 12:50:31 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230619 12:50:31 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230619 12:50:31 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230619 12:50:33 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230619 12:50:35 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230619 12:50:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230619 12:50:35 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Settings is clicked
+20230619 12:50:35 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230619 12:50:39 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Personal Tab is clicked
+20230619 12:50:43 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login History is clicked
+20230619 12:50:45 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element downloadLink is clicked
+20230619 12:50:47 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Display Layouttab is clicked
+20230619 12:50:49 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Customize MyTabs is clicked
+20230619 12:50:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Add Button is clicked
+20230619 12:50:59 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230619 12:50:59 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230619 12:54:47 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230619 12:54:47 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230619 12:54:47 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230619 12:54:47 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230619 12:54:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230619 12:54:51 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230619 12:54:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230619 12:54:52 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Settings is clicked
+20230619 12:54:52 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230619 12:54:56 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Personal Tab is clicked
+20230619 12:54:58 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login History is clicked
+20230619 12:55:01 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element downloadLink is clicked
+20230619 12:55:03 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Display Layouttab is clicked
+20230619 12:55:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Customize MyTabs is clicked
+20230619 12:55:35 INFO  [main] base.BaseTest BaseTest.java78 - https://login.salesforce.com is entered
+20230619 12:55:35 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Login | Salesforce
+20230619 12:55:35 INFO  [main] base.BaseTest BaseTest.java103 - Pass: User Name is entered 
+20230619 12:55:35 INFO  [main] base.BaseTest BaseTest.java103 - Pass: Password is entered 
+20230619 12:55:38 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login Button is clicked
+20230619 12:55:41 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Home Page ~ Salesforce - Developer Edition
+20230619 12:55:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element User Menu Dropdown is clicked
+20230619 12:55:41 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element My Settings is clicked
+20230619 12:55:42 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230619 12:55:46 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Personal Tab is clicked
+20230619 12:55:49 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Login History is clicked
+20230619 12:55:51 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element downloadLink is clicked
+20230619 12:55:53 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Display Layouttab is clicked
+20230619 12:55:55 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Customize MyTabs is clicked
+20230619 12:56:02 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Add Button is clicked
+20230619 12:56:04 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230619 12:56:04 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Hello, P Jan! ~ Salesforce - Developer Edition
+20230619 12:56:05 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Display Layouttab is clicked
+20230619 12:56:07 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Customize MyTabs is clicked
+20230619 12:56:11 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element remove Button is clicked
+20230619 12:56:14 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Save Button is clicked
+20230619 12:56:16 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element email Tab is clicked
+20230619 12:56:18 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element email Setting is clicked
+20230619 12:56:21 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Calendar And Remainder is clicked
+20230619 12:56:23 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Activity Remainder is clicked
+20230619 12:56:25 INFO  [main] base.BaseTest BaseTest.java92 - Pass: Title matched with Activity Reminders ~ Salesforce - Developer Edition
+20230619 12:56:25 INFO  [main] base.BaseTest BaseTest.java114 - Pass: Element Open Test Remainder is clicked

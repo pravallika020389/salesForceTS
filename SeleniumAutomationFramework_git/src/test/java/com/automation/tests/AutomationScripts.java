@@ -218,45 +218,44 @@ public class AutomationScripts extends BaseTest {
 		wait.until(ExpectedConditions.titleContains("User: P Jan ~ Salesforce - Developer Edition"));
 		verifyTittle("User: P Jan ~ Salesforce - Developer Edition");
 		Thread.sleep(3000);
-		///Updating the last name
+		/// Updating the last name
 		WebElement editProfile = driver.findElement(By.xpath("//*[contains(text(),'Contact')]//a"));
 		wait.until(ExpectedConditions.elementToBeClickable(editProfile));
 		Thread.sleep(4000);
-		clickOnElement(editProfile,"Edit Profile");
+		clickOnElement(editProfile, "Edit Profile");
 		Thread.sleep(4000);
 		driver.switchTo().frame("contactInfoContentId");
 		Thread.sleep(3000);
-		WebElement about =driver.findElement(By.xpath("//*[@id=\"aboutTab\"]/a"));
-		clickOnElement(about,"about");
-		WebElement lName =driver.findElement(By.id("lastName"));
-		String updatedLastName ="Jandh";
-		enterText(lName,updatedLastName , "Last Name");
-		WebElement save =driver.findElement(By.xpath("//*[@id=\"TabPanel\"]/div/div[2]/form/div/input[1]"));
-		clickOnElement(save,"save");
+		WebElement about = driver.findElement(By.xpath("//*[@id=\"aboutTab\"]/a"));
+		clickOnElement(about, "about");
+		WebElement lName = driver.findElement(By.id("lastName"));
+		String updatedLastName = "Jandh";
+		enterText(lName, updatedLastName, "Last Name");
+		WebElement save = driver.findElement(By.xpath("//*[@id=\"TabPanel\"]/div/div[2]/form/div/input[1]"));
+		clickOnElement(save, "save");
 		driver.switchTo().defaultContent();
 		Thread.sleep(2000);
-		WebElement updatedName= driver.findElement(By.id("tailBreadcrumbNode"));
+		WebElement updatedName = driver.findElement(By.id("tailBreadcrumbNode"));
 		String name = getText(updatedName);
-		if(name.equalsIgnoreCase("P "+updatedLastName+" ")){
+		if (name.equalsIgnoreCase("P " + updatedLastName + " ")) {
 			System.out.println("Pass :Last Name is updated");
-		}else
-		{
+		} else {
 			System.out.println("Fail :Last Name is not updated ");
 		}
-		///changing back the name
+		/// changing back the name
 		Thread.sleep(2000);
 		WebElement reEditProfile = driver.findElement(By.xpath("//*[contains(text(),'Contact')]//a"));
-		clickOnElement(reEditProfile,"Edit Profile");
+		clickOnElement(reEditProfile, "Edit Profile");
 		Thread.sleep(4000);
 		driver.switchTo().frame("contactInfoContentId");
 		Thread.sleep(3000);
-		WebElement reAbout =driver.findElement(By.xpath("//*[@id=\"aboutTab\"]/a"));
-		clickOnElement(reAbout,"about");
-		WebElement reLName =driver.findElement(By.id("lastName"));
-		String updatedLastNameNew ="Jan";
-		enterText(reLName,updatedLastNameNew , "Last Name");	
-		WebElement saveAll =driver.findElement(By.xpath("//*[@id=\"TabPanel\"]/div/div[2]/form/div/input[1]"));
-		clickOnElement(saveAll,"saveAll");
+		WebElement reAbout = driver.findElement(By.xpath("//*[@id=\"aboutTab\"]/a"));
+		clickOnElement(reAbout, "about");
+		WebElement reLName = driver.findElement(By.id("lastName"));
+		String updatedLastNameNew = "Jan";
+		enterText(reLName, updatedLastNameNew, "Last Name");
+		WebElement saveAll = driver.findElement(By.xpath("//*[@id=\"TabPanel\"]/div/div[2]/form/div/input[1]"));
+		clickOnElement(saveAll, "saveAll");
 		driver.switchTo().defaultContent();
 		Thread.sleep(2000);
 		/// Post content
@@ -264,8 +263,8 @@ public class AutomationScripts extends BaseTest {
 		WebElement postLink = driver.findElement(By.xpath("//*[@id=\"publisherAttachTextPost\"]"));
 		clickOnElement(postLink, "Post Link");
 		driver.manage().timeouts().implicitlyWait(2000, TimeUnit.SECONDS);
-		//driver.switchTo().frame("Rich Text Editor, publisherRichTextEditor");
-		
+		// driver.switchTo().frame("Rich Text Editor, publisherRichTextEditor");
+
 		driver.findElement(By.xpath("//*[@id='cke_43_contents']/iframe")).click();
 		String textTotype = "Hi everyone!";
 		actions.sendKeys(textTotype).build().perform();
@@ -298,13 +297,13 @@ public class AutomationScripts extends BaseTest {
 		System.out.println("completed");
 		driver.switchTo().defaultContent();
 		WebElement sharefileButton = driver.findElement(By.xpath("//*[@id=\"publishersharebutton\"]"));
-				//(By.id("publishersharebutton"));
+		// (By.id("publishersharebutton"));
 		clickOnElement(sharefileButton, "share Button");
 		Thread.sleep(2000);
 		System.out.println("completed");
-		
-		
+
 	}
+
 	@Test
 	public void user_Menu_MyProfile_06A_Photo() throws InterruptedException, AWTException {
 		PropertiesUtility pro = new PropertiesUtility();
@@ -332,7 +331,7 @@ public class AutomationScripts extends BaseTest {
 		/// upload photo
 		Thread.sleep(2000);
 		WebElement moderator = driver.findElement(By.id("displayBadge"));
-		Actions actions =new Actions(driver);
+		Actions actions = new Actions(driver);
 		actions.moveToElement(moderator).build().perform();
 		System.out.println("Mouse moved");
 		WebElement addPhoto = driver.findElement(By.linkText("Add Photo"));
@@ -371,7 +370,6 @@ public class AutomationScripts extends BaseTest {
 		Thread.sleep(2000);
 		WebElement okButton = driver.findElement(By.id("simpleDialog0button0"));
 		clickOnElement(okButton, "ok Button");
-	
 
 	}
 
@@ -437,10 +435,6 @@ public class AutomationScripts extends BaseTest {
 		Thread.sleep(2000);
 
 		/*
-		 * WebElement selectedTab =
-		 * driver.findElement(By.xpath("//select[@id='duel_select_1']")); Select
-		 * selectSelectedTab = new Select(selectedTab);
-		 * 
 		 * String addedOption=selectSelectedTab.getFirstSelectedOption().getText();
 		 * if(addedOption.equalsIgnoreCase("Reports")) {
 		 * System.out.println("Reports added Sucessfully"); } else {
@@ -450,6 +444,28 @@ public class AutomationScripts extends BaseTest {
 		clickOnElement(saveButton, "Save Button");
 		wait.until(ExpectedConditions.titleContains("Hello, P Jan! ~ Salesforce - Developer Edition"));
 		verifyTittle("Hello, P Jan! ~ Salesforce - Developer Edition");
+		WebElement reDisplayLayouttab = driver.findElement(By.xpath("//span[@id='DisplayAndLayout_font']"));
+		clickOnElement(reDisplayLayouttab, "Display Layouttab");
+		Thread.sleep(2000);
+		WebElement reCustomizeMyTabs = driver.findElement(By.xpath("//span[@id='CustomizeTabs_font']"));
+		clickOnElement(reCustomizeMyTabs, "Customize MyTabs");
+		Thread.sleep(2000);
+		WebElement reCustomAppDropDown = driver.findElement(By.xpath("//select[@id='p4']"));
+		Select reSelectCustomAppDropDown = new Select(reCustomAppDropDown);
+		
+		reSelectCustomAppDropDown.selectByVisibleText("Salesforce Chatter");
+
+		Thread.sleep(2000);
+		WebElement selectedTab = driver.findElement(By.xpath("//select[@id='duel_select_1']"));
+		Select selectSelectedTab = new Select(selectedTab);
+		selectSelectedTab.selectByVisibleText("Reports");
+
+		WebElement remove = driver.findElement(By.xpath("//img[@title='Remove']"));
+		clickOnElement(remove, "remove Button");
+		Thread.sleep(2000);
+		WebElement reSaveButton = driver.findElement(By.name("save"));
+		clickOnElement(reSaveButton, "Save Button");
+		Thread.sleep(2000);
 
 		// Email options
 		WebElement emailTab = driver.findElement(By.xpath("//span[@id='EmailSetup_font']"));
